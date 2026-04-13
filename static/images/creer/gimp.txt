@@ -1,0 +1,16 @@
+
+
+
+Supprimer arriere plan
+
+open bras3.xcf
+selection par couleur
+selection contigue
+dessiner le masque
+
+opacite 0
+save
+
+
+rotation
+

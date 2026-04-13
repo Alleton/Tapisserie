@@ -59,7 +59,7 @@ echo nl2br(" load images  \n " );
     		title =".$row["name"]."
     		alt=' iamge Odon'
 			deplace =  ".$row["deplacement"]." 
-			left    =  ".$row["position_x""]."
+			left    =  ".$row["position_x"]."
 			final_x = ".$row["final_x"]."
 			>
     	  </a>" ;
