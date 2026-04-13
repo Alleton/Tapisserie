@@ -1,0 +1,60 @@
+
+li a {
+    color: red;
+}
+body {
+    background: white url("./static/images/backgrounds/background2.png") no-repeat;
+	position: relative;
+}
+
+/* declaration de la class block 
+   utilisee pour les boutons */
+.block,
+li {
+  border: 2px solid blue;
+  padding: 0.2em;
+  background-color: lightgray;
+}
+
+/* box_tapis
+  pas de bordure */
+
+.box_tapis {
+  border: 0px solid blue;
+  padding: 0em;
+  width: 1600px;
+  height: 460px;
+  }
+  
+button_styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  background-color: tomato;
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 20%),
+    rgb(0 0 0 / 20%) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+
+.button_styled:hover {
+  background-color: red;
+}
+
+.button_styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 60%),
+    inset 2px 2px 3px rgb(0 0 0 / 60%);
+}
+
+
