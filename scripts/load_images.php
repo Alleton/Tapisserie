@@ -35,7 +35,7 @@ $stmt->bind_param("d",$scene);
 // Execute the SQL query
 $stmt->execute();
 $result =  $stmt->get_result();
-//
+//  affiche result
 
 
 //echo '<div class="box_tapis">';
