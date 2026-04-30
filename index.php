@@ -1,11 +1,11 @@
 
-<HTML>
+<<!DOCTYPE html>>
  <!-- C:\Users\jf\Bayeux\tap.php  -->
  
   lang="fr" 
   <head>
     <meta charset="utf-8" />
-    <title>Ma page tap.php  C:\Users\jf\Bayeux\tap </title>
+    <title>Ma page index.php  C:\Users\jf\Bayeux\tap </title>
   </head>
   
 <BODY>
